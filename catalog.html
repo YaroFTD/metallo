@@ -306,7 +306,7 @@
             <div class="catalog__container">
                <div class="catalog__top">
                   <h1 class="catalog__title title">Прокат листовой горячекатанный</h1>
-                  <button type="button" class="catalog__btn">
+                  <button type="button" aria-label="Распечатать" class="catalog__btn">
                      <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14.2857 4.57137H12.5714V0.571207C12.5714 0.419868 12.5114 0.274554 12.404 0.16741C12.2968 0.0599317 12.1515 0 12.0002 0H3.99985C3.68445 0 3.42864 0.255809 3.42864 0.571216V4.57138H1.71433C1.25964 4.57205 0.824008 4.75252 0.502575 5.07395C0.181143 5.39538 0.00033429 5.83132 0 6.28571V10.8571C0.000334804 11.3118 0.181143 11.7474 0.502575 12.0688C0.824008 12.3903 1.25961 12.5711 1.71433 12.5714H4.57139V15.4288C4.57139 15.5802 4.63166 15.7255 4.7388 15.8326C4.84595 15.9401 4.99126 16 5.14294 16H10.8574H10.8571C11.0087 16 11.1541 15.9401 11.2612 15.8326C11.3683 15.7255 11.4286 15.5802 11.4286 15.4288V12.5714H14.2857C14.7404 12.5711 15.176 12.3903 15.4974 12.0688C15.8189 11.7474 15.9997 11.3118 16 10.8571V6.28571C15.9997 5.83135 15.8189 5.39538 15.4974 5.07395C15.176 4.75252 14.7404 4.57205 14.2857 4.57138L14.2857 4.57137ZM4.57157 1.14276H11.4288V4.57137H4.57157V1.14276ZM10.286 14.8572H5.71433V12.5713H10.2857L10.286 14.8572ZM10.286 11.4286H5.71433V10.2858H10.2857L10.286 11.4286ZM14.8574 10.857C14.8567 11.1725 14.6013 11.4279 14.2859 11.4286H11.4288V9.71429C11.4288 9.56261 11.3685 9.4173 11.2614 9.31015C11.1542 9.20301 11.0089 9.14275 10.8573 9.14275H5.14279H5.14312C4.82738 9.14275 4.57157 9.39855 4.57157 9.71429V11.4286H1.71451C1.39911 11.4279 1.14363 11.1725 1.14296 10.8571V6.28568C1.14363 5.97028 1.39911 5.7148 1.71451 5.71413H14.2864H14.286C14.6014 5.7148 14.8569 5.97028 14.8576 6.28568L14.8574 10.857Z" />
                      </svg>
@@ -453,17 +453,17 @@
                               <div data-range-item class="spollers-filter-catalog__range"></div>
                               <div hidden class="spollers-filter-catalog__inputs">
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">От</label>
+                                    <label for="rg_1" class="spollers-filter-catalog__label">От</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-from-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--from"><span>1</span></div>
-                                       <input data-range-from="1" autocomplete="off" type="text" name="diameter-min" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_1" data-range-from="1" autocomplete="off" type="text" name="diameter-min" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">До</label>
+                                    <label for="rg_2" class="spollers-filter-catalog__label">До</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-to-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--to"><span>600</span></div>
-                                       <input data-range-to="600" autocomplete="off" type="text" name="diameter-max" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_2" data-range-to="600" autocomplete="off" type="text" name="diameter-max" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                               </div>
@@ -480,17 +480,17 @@
                               <div data-range-item class="spollers-filter-catalog__range"></div>
                               <div hidden class="spollers-filter-catalog__inputs">
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">От</label>
+                                    <label for="rg_3" class="spollers-filter-catalog__label">От</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-from-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--from"><span>1</span></div>
-                                       <input data-range-from="1" autocomplete="off" type="text" name="thickness-min" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_3" data-range-from="1" autocomplete="off" type="text" name="thickness-min" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">До</label>
+                                    <label for="rg_4" class="spollers-filter-catalog__label">До</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-to-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--to"><span>600</span></div>
-                                       <input data-range-to="600" autocomplete="off" type="text" name="thickness-max" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_4" data-range-to="600" autocomplete="off" type="text" name="thickness-max" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                               </div>
@@ -507,17 +507,17 @@
                               <div data-range-item class="spollers-filter-catalog__range"></div>
                               <div hidden class="spollers-filter-catalog__inputs">
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">От</label>
+                                    <label for="rg_5" class="spollers-filter-catalog__label">От</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-from-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--from"><span>1</span></div>
-                                       <input data-range-from="1" autocomplete="off" type="text" name="width-min" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_5" data-range-from="1" autocomplete="off" type="text" name="width-min" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">До</label>
+                                    <label for="rg_6" class="spollers-filter-catalog__label">До</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-to-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--to"><span>600</span></div>
-                                       <input data-range-to="600" autocomplete="off" type="text" name="width-max" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_6" data-range-to="600" autocomplete="off" type="text" name="width-max" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                               </div>
@@ -534,17 +534,17 @@
                               <div data-range-item class="spollers-filter-catalog__range"></div>
                               <div hidden class="spollers-filter-catalog__inputs">
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">От</label>
+                                    <label for="rg_7" class="spollers-filter-catalog__label">От</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-from-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--from"><span>1</span></div>
-                                       <input data-range-from="1" autocomplete="off" type="text" name="length-min" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_7" data-range-from="1" autocomplete="off" type="text" name="length-min" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                                  <div hidden class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">До</label>
+                                    <label for="rg_8" class="spollers-filter-catalog__label">До</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-to-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--to"><span>600</span></div>
-                                       <input data-range-to="600" autocomplete="off" type="text" name="length-max" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_8" data-range-to="600" autocomplete="off" type="text" name="length-max" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                               </div>
@@ -561,17 +561,17 @@
                               <div data-range-item class="spollers-filter-catalog__range"></div>
                               <div class="spollers-filter-catalog__inputs">
                                  <div class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">От</label>
+                                    <label for="rg_9" class="spollers-filter-catalog__label">От</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-from-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--from"><span>1</span></div>
-                                       <input data-range-from="1" autocomplete="off" type="text" name="length-min" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_9" data-range-from="1" autocomplete="off" type="text" name="length-min" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                                  <div class="spollers-filter-catalog__col">
-                                    <label for="" class="spollers-filter-catalog__label">До</label>
+                                    <label for="rg_11" class="spollers-filter-catalog__label">До</label>
                                     <div class="spollers-filter-catalog__inp">
                                        <div data-range-to-opc class="spollers-filter-catalog__val spollers-filter-catalog__val--to"><span>600</span></div>
-                                       <input data-range-to="600" autocomplete="off" type="text" name="length-max" placeholder="" class="spollers-filter-catalog__input">
+                                       <input id="rg_11" data-range-to="600" autocomplete="off" type="text" name="length-max" placeholder="" class="spollers-filter-catalog__input">
                                     </div>
                                  </div>
                               </div>
@@ -677,7 +677,7 @@
                               </div>
                               <div class="card__body">
                                  <a href="inner-products.html" class="card__link">
-                                    <h3 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h3>
+                                    <h2 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h2>
                                  </a>
                                  <div class="card__parameters parameters-card">
                                     <div class="parameters-card__item">
@@ -707,7 +707,7 @@
                                     </div>
                                  </div>
                                  <div class="card__buttons">
-                                    <button type="button" class="card__btn btn btn--icon">
+                                    <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                        <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                        </svg>
@@ -731,7 +731,7 @@
                               </div>
                               <div class="card__body">
                                  <a href="inner-products.html" class="card__link">
-                                    <h3 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h3>
+                                    <h2 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h2>
                                  </a>
                                  <div class="card__parameters parameters-card">
                                     <div class="parameters-card__item">
@@ -761,7 +761,7 @@
                                     </div>
                                  </div>
                                  <div class="card__buttons">
-                                    <button type="button" class="card__btn btn btn--icon">
+                                    <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                        <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                        </svg>
@@ -785,7 +785,7 @@
                               </div>
                               <div class="card__body">
                                  <a href="inner-products.html" class="card__link">
-                                    <h3 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h3>
+                                    <h2 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h2>
                                  </a>
                                  <div class="card__parameters parameters-card">
                                     <div class="parameters-card__item">
@@ -815,7 +815,7 @@
                                     </div>
                                  </div>
                                  <div class="card__buttons">
-                                    <button type="button" class="card__btn btn btn--icon">
+                                    <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                        <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                        </svg>
@@ -839,7 +839,7 @@
                               </div>
                               <div class="card__body">
                                  <a href="inner-products.html" class="card__link">
-                                    <h3 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h3>
+                                    <h2 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h2>
                                  </a>
                                  <div class="card__parameters parameters-card">
                                     <div class="parameters-card__item">
@@ -869,7 +869,7 @@
                                     </div>
                                  </div>
                                  <div class="card__buttons">
-                                    <button type="button" class="card__btn btn btn--icon">
+                                    <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                        <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                        </svg>
@@ -893,7 +893,7 @@
                               </div>
                               <div class="card__body">
                                  <a href="inner-products.html" class="card__link">
-                                    <h3 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h3>
+                                    <h2 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h2>
                                  </a>
                                  <div class="card__parameters parameters-card">
                                     <div class="parameters-card__item">
@@ -923,7 +923,7 @@
                                     </div>
                                  </div>
                                  <div class="card__buttons">
-                                    <button type="button" class="card__btn btn btn--icon">
+                                    <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                        <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                        </svg>
@@ -947,7 +947,7 @@
                               </div>
                               <div class="card__body">
                                  <a href="inner-products.html" class="card__link">
-                                    <h3 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h3>
+                                    <h2 class="card__title subtitle">Труба 6 бухта А-III 25Г2С</h2>
                                  </a>
                                  <div class="card__parameters parameters-card">
                                     <div class="parameters-card__item">
@@ -977,7 +977,7 @@
                                     </div>
                                  </div>
                                  <div class="card__buttons">
-                                    <button type="button" class="card__btn btn btn--icon">
+                                    <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                        <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                           <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                        </svg>
@@ -1004,7 +1004,7 @@
                         <div class="navigation__arrows arrows">
                            <button type="button" aria-label="Предыдущая страница" class="arrows__item arrows__item--prev navigation-prev swiper-button-disabled" data-da=".navigation,479.98,first">
                               <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <mask id="path-1-outside-1_234_2218" maskUnits="userSpaceOnUse" x="0.613281" y="0" width="8" height="13" fill="black">
+                                 <mask id="path-12-outside-1_234_2218" maskUnits="userSpaceOnUse" x="0.613281" y="0" width="8" height="13" fill="black">
                                     <rect fill="white" x="0.613281" width="8" height="13" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.83533 1L7.61328 1.77795L2.55645 6.83478L7.61328 11.8916L6.83533 12.6696L1.00072 6.83495L1.00089 6.83478L1.00072 6.83461L6.83533 1Z" />
                                  </mask>
@@ -1014,7 +1014,7 @@
                            </button>
                            <button type="button" aria-label="Следующая страница" class="arrows__item arrows__item--next navigation-next">
                               <svg width="8" height="13" viewBox="0 0 8 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <mask id="path-1-outside-1_234_2218" maskUnits="userSpaceOnUse" x="0.613281" y="0" width="8" height="13" fill="black">
+                                 <mask id="path-13-outside-1_234_2218" maskUnits="userSpaceOnUse" x="0.613281" y="0" width="8" height="13" fill="black">
                                     <rect fill="white" x="0.613281" width="8" height="13" />
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M6.83533 1L7.61328 1.77795L2.55645 6.83478L7.61328 11.8916L6.83533 12.6696L1.00072 6.83495L1.00089 6.83478L1.00072 6.83461L6.83533 1Z" />
                                  </mask>
@@ -1103,8 +1103,8 @@
                      </div>
                      <div class="bottom-callback__content">
                         <div class="checkbox">
-                           <input id="c_1" class="checkbox__input _req" type="checkbox" value="1" checked name="checkbox">
-                           <label for="c_1" class="checkbox__label">
+                           <input id="cr_1" class="checkbox__input _req" type="checkbox" value="1" checked name="checkbox">
+                           <label for="cr_1" class="checkbox__label">
                               <span class="checkbox__text">Я даю свое согласие на <a href="#">обработку персональных данных</a>, соглашаюсь с политикой обработки оператора.</span>
                            </label>
                         </div>
@@ -1146,7 +1146,7 @@
                   <div class="popular-products__arrows arrows">
                      <button type="button" aria-label="Предыдущий слайд" class="arrows__item arrows__item--prev popular-products-prev">
                         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <mask id="path-1-outside-1_42_2721" maskUnits="userSpaceOnUse" x="-0.514648" y="-0.515747" width="15" height="15" fill="black">
+                           <mask id="path-15-outside-1_42_2721" maskUnits="userSpaceOnUse" x="-0.514648" y="-0.515747" width="15" height="15" fill="black">
                               <rect fill="white" x="-0.514648" y="-0.515747" width="15" height="15" />
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M7.03488 0.484253L7.90381 1.35319L2.86885 6.38815H13.4854V7.617H2.8704L7.90308 12.6497L7.03414 13.5186L0.517152 7.00162L1.38608 6.13269L1.38626 6.13287L7.03488 0.484253Z" />
                            </mask>
@@ -1156,7 +1156,7 @@
                      </button>
                      <button type="button" aria-label="Следующий слайд" class="arrows__item arrows__item--next popular-products-next">
                         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                           <mask id="path-1-outside-1_42_2721" maskUnits="userSpaceOnUse" x="-0.514648" y="-0.515747" width="15" height="15" fill="black">
+                           <mask id="path-16-outside-1_42_2721" maskUnits="userSpaceOnUse" x="-0.514648" y="-0.515747" width="15" height="15" fill="black">
                               <rect fill="white" x="-0.514648" y="-0.515747" width="15" height="15" />
                               <path fill-rule="evenodd" clip-rule="evenodd" d="M7.03488 0.484253L7.90381 1.35319L2.86885 6.38815H13.4854V7.617H2.8704L7.90308 12.6497L7.03414 13.5186L0.517152 7.00162L1.38608 6.13269L1.38626 6.13287L7.03488 0.484253Z" />
                            </mask>
@@ -1207,7 +1207,7 @@
                                  </div>
                               </div>
                               <div class="card__buttons">
-                                 <button type="button" class="card__btn btn btn--icon">
+                                 <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                     <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                     </svg>
@@ -1261,7 +1261,7 @@
                                  </div>
                               </div>
                               <div class="card__buttons">
-                                 <button type="button" class="card__btn btn btn--icon">
+                                 <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                     <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                     </svg>
@@ -1315,7 +1315,7 @@
                                  </div>
                               </div>
                               <div class="card__buttons">
-                                 <button type="button" class="card__btn btn btn--icon">
+                                 <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                     <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                     </svg>
@@ -1369,7 +1369,7 @@
                                  </div>
                               </div>
                               <div class="card__buttons">
-                                 <button type="button" class="card__btn btn btn--icon">
+                                 <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                     <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                     </svg>
@@ -1423,7 +1423,7 @@
                                  </div>
                               </div>
                               <div class="card__buttons">
-                                 <button type="button" class="card__btn btn btn--icon">
+                                 <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                     <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                     </svg>
@@ -1477,7 +1477,7 @@
                                  </div>
                               </div>
                               <div class="card__buttons">
-                                 <button type="button" class="card__btn btn btn--icon">
+                                 <button type="button" aria-label="В корзину" class="card__btn btn btn--icon">
                                     <svg viewBox="0 0 23 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                        <path d="M14.0771 0.999023C14.4248 0.86285 14.8242 1.01734 14.9932 1.36914L17.4307 6.40234H21.3145C21.7221 6.40234 22.0498 6.74325 22.0498 7.16016C22.0497 7.57666 21.7223 7.91992 21.3145 7.91992H20.8047L19.2793 17.4121V17.4131C19.2211 17.7659 18.9352 18.0184 18.6035 18.042V18.0498H4.44922C4.06258 18.0497 3.74844 17.7482 3.71484 17.3623V17.3633L2.19531 7.91992H1.68555C1.27765 7.91992 0.950325 7.57666 0.950195 7.16016C0.950195 6.74325 1.27785 6.40234 1.68555 6.40234H5.56934L8.00684 1.36914L8.04395 1.30176C8.24225 0.976685 8.65167 0.855119 8.99121 1.03027L9.05664 1.06836C9.33043 1.24612 9.45389 1.58629 9.37207 1.90039L9.32031 2.04199L7.20996 6.40234H15.793L13.6797 2.04199C13.5002 1.67095 13.6476 1.21667 14.0088 1.03027L14.0771 0.999023ZM5.07227 16.5322H17.9307L19.3154 7.91992H3.68555L5.07227 16.5322ZM11.502 9.59473C11.9097 9.59498 12.2363 9.93806 12.2363 10.3545V14.0986C12.2361 14.5152 11.9093 14.8552 11.502 14.8555C11.0947 14.8555 10.7639 14.5156 10.7637 14.0986V10.3545C10.7637 9.93761 11.0943 9.59473 11.502 9.59473ZM7.34668 9.59863C7.71862 9.57603 8.05284 9.84672 8.11328 10.2314L8.71777 13.9756L8.72559 14.0527C8.74568 14.411 8.51794 14.7365 8.18164 14.8291L8.1084 14.8457C7.73216 14.9083 7.37787 14.6651 7.28223 14.2959L7.2666 14.2207L6.66309 10.4746L6.66211 10.4736C6.5982 10.0634 6.87085 9.67422 7.27148 9.60742L7.34668 9.59863ZM14.8867 10.2314C14.9512 9.82084 15.3276 9.54072 15.7314 9.60742L15.8047 9.62402C16.1645 9.72327 16.3978 10.0892 16.3379 10.4736L16.3369 10.4746L15.7334 14.2207C15.6692 14.6315 15.2928 14.9125 14.8916 14.8457C14.4903 14.7789 14.2211 14.3886 14.2852 13.9756L14.8867 10.2314Z" stroke-width="0.1" />
                                     </svg>
