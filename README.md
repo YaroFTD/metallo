@@ -1,4 +1,4 @@
-<h1><a href="https://jaroftd.github.io/metallo/">Интернет-магазин</a> по продаже металла</h1>
+<h1><a href="https://yaroftd.github.io/metallo/">Интернет-магазин</a> по продаже металла</h1>
 <ul>
   <li>Адаптив до 320px;</li>
   <li>Меню бургер;</li>
